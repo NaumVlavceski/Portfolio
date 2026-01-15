@@ -25,7 +25,7 @@ const Skills = () => {
             icon: Smartphone,
             title: "Mobile Development",
             skills: ['Flutter', 'React Native', 'Mobile UI/UX'],
-            color: 'from-blue-500 to-blue-950'
+            color: 'from-pink-500 to-pink-950'
         },
         {
             icon: Globe,
