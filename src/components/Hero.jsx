@@ -130,6 +130,7 @@ const Hero = ({setActiveSection}) => {
                         </a>
                         <a
                             href="https://www.canva.com/design/DAG4JlQ1GWk/qm8U4y-7Ol5HCkyvv7B8wQ/view?utm_content=DAG4JlQ1GWk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h18c3ddffcb"
+                            target="_blank"
                             className="p-3 rounded-lg
                      bg-white/5 border border-white/10 backdrop-blur-md
                      text-white/60 transition-all duration-300
