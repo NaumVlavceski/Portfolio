@@ -18,7 +18,7 @@ const Skills = () => {
         {
             icon: Workflow,
             title: "DevOps & Tools",
-            skills: ['Docker', 'Git', 'GitHub', 'CSS', 'CI/CD', 'AWS'],
+            skills: ['Docker', 'Git', 'GitHub', 'CI/CD', 'AWS'],
             color: 'from-green-500 to-blue-950'
         },
         {
@@ -35,7 +35,7 @@ const Skills = () => {
         },
         {
             icon: Palette,
-            title: "Web Technologies",
+            title: "Design & UI/UX",
             skills: ['Figma', 'Responsive Design', 'User Research', 'Prototyping'],
             color: 'from-purple-500 to-purple-950'
         },
