@@ -136,8 +136,8 @@ const Contact = () => {
                 </form>
             </div>
             <a
-                href="/CV%20Naum%20Vlavceski.pdf"
-                download={"CV Naum Vlavcheski.pdf"}
+                href="/Naum%20Vlavcheski%20CV.pdf"
+                download={"Naum Vlavcheski CV.pdf"}
                 className="absolute right-2 scale-150 text-slate-950"
             >
                 <FileUser size={24}/>
