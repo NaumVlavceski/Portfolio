@@ -1,4 +1,4 @@
-import {Folder, Github, ExternalLink} from "lucide-react";
+import {Folder, Github, ExternalLink,ShieldQuestionMark} from "lucide-react";
 
 const Projects = () => {
     const projects = [
@@ -16,6 +16,13 @@ const Projects = () => {
             webLink: 'https://bookenda.onrender.com/',
             gitHub: 'https://github.com/NaumVlavceski/Bookenda'
         },
+        {
+            title: "Smart Park",
+            description: "SmartPark is a web application for finding and reserving parking spaces in real time. It helps users save time through quick reservations, live availability tracking, and easy digital payments.",
+            platforms: ['Python', 'React', 'Tailwind CSS', 'PostgreSQL', 'Docker'],
+            webLink: 'https://mk-smart-parking.onrender.com/',
+            gitHub: null
+        },
     ]
     const otherProjects = [
         {
@@ -23,6 +30,12 @@ const Projects = () => {
             description: "Weather app with 7-day forecasts.",
             platforms: ['Java Script', 'CSS', 'HTML', 'Weather API'],
             gitHub: 'https://github.com/NaumVlavceski/Weather-Project'
+        },
+        {
+            title: "Child System",
+            description: "Child System is a web application for managing and tracking child-related data in an organized way. It helps users easily store records and monitor updates through a simple interface.",
+            platforms: ['Python','Django', 'Bootstrap', 'HTML','PostgreSQL'],
+            gitHub: 'https://github.com/NaumVlavceski/ChildSystem'
         },
     ]
     return (
@@ -59,14 +72,15 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div className="flex lg:flex-col gap-4 items-start lg:items-end justify-start">
-                                <a
+                                {project.gitHub === null ? <div className="p-3 rounded-lg bg-cyan-950 hover:text-cyan-500 transition-colors duration-300" title={"The GitHub repository is private because the project is being developed collaboratively by multiple students."}><ShieldQuestionMark /></div> : <a
                                     href={project.gitHub}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="p-3 rounded-lg bg-cyan-950 hover:text-cyan-500 transition-colors duration-300"
                                 >
                                     <Github size={20}/>
-                                </a>
+                                </a>}
+
                                 <a
                                     href={project.webLink}
                                     target="_blank"
