@@ -121,6 +121,7 @@ const Hero = ({setActiveSection}) => {
 
                         <a
                             href="mailto:nvlavceski542@gmail.com"
+                            target="_blank"
                             className="p-3 rounded-lg
                      bg-white/5 border border-white/10 backdrop-blur-md
                      text-white/60 transition-all duration-300
@@ -129,7 +130,7 @@ const Hero = ({setActiveSection}) => {
                             <Mail size={24}/>
                         </a>
                         <a
-                            href="https://www.canva.com/design/DAG4JlQ1GWk/qm8U4y-7Ol5HCkyvv7B8wQ/view?utm_content=DAG4JlQ1GWk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h18c3ddffcb"
+                            href="https://canva.link/c7tyxfvx4zsnk9g"
                             target="_blank"
                             className="p-3 rounded-lg
                      bg-white/5 border border-white/10 backdrop-blur-md
